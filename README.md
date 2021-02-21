@@ -1,6 +1,10 @@
 # python-django31
 python-django31
 
+django-admin version
+
+3.1.7
+
 pip install Django==3.1.7
 
 django-admin startproject myapp
