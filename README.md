@@ -5,7 +5,9 @@ django-admin version
 
 3.1.7
 
+````
 pip install Django==3.1.7
+
 
 django-admin startproject myapp
 
@@ -16,9 +18,11 @@ myapp/settings.py
 DEBUG = True
 
 python manage.py runserver
+````
 
-myapp/settings.py
 
+## setting file myapp/settings.py
+````
 INSTALLED_APPS = [
 
     'django.contrib.admin',
@@ -53,8 +57,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     
 ]
+````
 
-
+## migrate command
+````
 python manage.py migrate
 
 python manage.py createsuperuser
@@ -83,3 +89,4 @@ C:\Users\admin\myapp>
 python manage.py runserver
 
 python manage.py runserver 0:8080
+````
